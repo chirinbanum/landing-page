@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:100;
+    padding: .5rem 5rem;
+    box-shadow: :5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: :800;
+    color:#29f700 !important; 
+}
+#navbarSupportedContent a{
+    color:#fff;
+    border-bottom:2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom:2px solid #29f700;
+}
+#navbarSupportedContent button{
+    background: #29f700;
+}
+section{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#home{
+    background: url(https://i.pinimg.com/originals/33/ef/8b/33ef8b9c0b902154a6cd4103a21275ef.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#contact{
+    background: url(https://www.bhmpics.com/downloads/background-hd-white-Wallpapers/3.white-abstract-wallpaper_23-2148830027.jpg);
+
+}
+#home h1{
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px  #ccc,
+    0px 2px 0px  #ccc,
+    0px 3px 0px  #ccc,
+    0px 4px 0px  #ccc,
+    0px 5px 0px  #ccc,
+    0px 6px 0px  #ccc,
+    0px 7px 0px  #ccc,
+    
+}
+
+.signin{
+    background: green !important;
+    color: white !important;
+    height: 36px;
+    
+}
+.t1{
+    height: 34px;
+}
+.contact-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-icons a {
+    color:aliceblue;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
